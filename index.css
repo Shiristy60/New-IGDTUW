@@ -478,6 +478,12 @@ w3-animate-fading {}
 
 /* footer */
 
+#map {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: aqua;
+}
+
 footer {
     padding: 20px;
     background-color: #011c38;
