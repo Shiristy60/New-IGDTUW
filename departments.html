@@ -14,7 +14,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:500|Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="stylesheet/index.css">
+
+    <link rel="stylesheet" id="stylesheet" href="stylesheet/style1.css">
+
     <style>
         body {
             font-family: 'Roboto', sans-serif;
@@ -104,6 +106,64 @@
 </head>
 
 <body>
+    <script>
+        function changestyle(n) {
+            if (n == 1) {
+                $("#stylesheet").attr("href", "stylesheet/style1.css");
+            } else if (n == 2) {
+                $("#stylesheet").attr("href", "stylesheet/style2.css");
+            } else if (n == 3) {
+                $("#stylesheet").attr("href", "stylesheet/style3.css");
+            }
+        }
+    </script>
+    <style>
+        .setting_container {
+            position: fixed;
+            top: 40%;
+            right: -100px;
+            padding: 10px;
+            z-index: 1000;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: black;
+            transition: right 2s;
+        }
+        
+        .setting_container:hover {
+            right: 0px;
+        }
+        
+        .setting_container span {
+            height: 50px;
+            color: white;
+            width: 50px;
+            margin: 0px;
+            padding: 10px;
+        }
+        
+        #sbutton {
+            /* background-color: white; */
+        }
+        
+        #style1 {
+            background-color: #011c38;
+        }
+        
+        #style2 {
+            background-color: #005E38;
+        }
+        
+        #style3 {
+            background-color: #104210;
+        }
+    </style>
+    <div class="setting_container">
+        <span id="sbutton"><i class="fa fa-gear"></i></span>
+        <span id="style1" onclick="changestyle(1)">1</span>
+        <span id="style2" onclick="changestyle(2)">2</span>
+        <span id="style3" onclick="changestyle(3)">3</span>
+    </div>
     <!-- header -->
     <div class="upperheadernav">
         <div class="container">
@@ -121,7 +181,7 @@
         <div class="headContainer">
             <div class="header">
 
-                <a href="#" class="logo" target="_blank">
+                <a href="index.html" class="logo" target="_blank">
                     <img src="images/log.jpg" alt="IGDTUW logo" height="100px" width="auto" />
                 </a>
 

@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: white;
     font-size: 14px;
     /* #7ba566 */
@@ -23,7 +23,7 @@ ul {
 }
 
 .upperheadernav {
-    background-color: #011c38;
+    background-color: #005E38;
     padding: 0px;
     margin: 0px;
 }
@@ -47,7 +47,7 @@ ul {
 
 .upperheadernav ul li a:hover {
     text-decoration: none;
-    color: rgb(253, 71, 71);
+    color: #fd4747;
 }
 
 
@@ -77,7 +77,7 @@ ul {
     display: inline-block;
     font-size: 16px;
     padding: 5px;
-    color: #011c38;
+    color: #005E38;
     font-weight: bolder;
 }
 
@@ -121,7 +121,7 @@ ul {
 }
 
 .navbar-default {
-    background-color: #011c38;
+    background-color: #005E38;
     border: 0px;
     border-bottom: 0.5px solid rgba(255, 255, 255, 0.589);
     border-radius: 0px;
@@ -197,7 +197,7 @@ ul {
     border-top-color: black;
     border-bottom-color: black;
     /* border-top-color: #555;
-    border-bottom-color: #555;*/
+  border-bottom-color: #555;*/
 }
 
 
@@ -229,12 +229,12 @@ ul {
         background-color: white;
     }
     .navbar-default .navbar-nav .open .dropdown-menu>li>a {
-        color: #011c38;
+        color: #005E38;
         /*color: #777;*/
     }
     .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
     .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
-        color: #011c38;
+        color: #005E38;
         /*color: #333;*/
     }
 }
@@ -243,7 +243,7 @@ ul {
 /* slider and side section*/
 
 .mainBox {
-    background-color: #011c38;
+    background-color: #005E38;
 }
 
 .flex-container {
@@ -270,7 +270,7 @@ ul {
 .w3-content {
     margin-left: auto;
     margin-right: auto;
-    max-width: 980px
+    max-width: 980px;
 }
 
 .w3-display-container {
@@ -282,18 +282,18 @@ ul {
 }
 
 .w3-large {
-    font-size: 15px!important
+    font-size: 15px !important;
 }
 
 .w3-display-bottomleft {
     position: absolute;
     left: 0;
-    bottom: 0
+    bottom: 0;
 }
 
 .w3-container,
 .w3-panel {
-    padding: 0.01em 16px
+    padding: 0.01em 16px;
 }
 
 .w3-container:after,
@@ -304,8 +304,8 @@ ul {
 }
 
 .w3-black {
-    color: #fff!important;
-    background-color: rgba(0, 0, 0, 0.5)!important
+    color: #fff !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
 .w3-button {
@@ -319,7 +319,7 @@ ul {
     background-color: inherit;
     text-align: center;
     cursor: pointer;
-    white-space: nowrap
+    white-space: nowrap;
 }
 
 .w3-display-left {
@@ -327,7 +327,7 @@ ul {
     top: 50%;
     left: 0%;
     transform: translate(0%, -50%);
-    -ms-transform: translate(-0%, -50%)
+    -ms-transform: translate(0%, -50%);
 }
 
 .w3-display-right {
@@ -335,10 +335,8 @@ ul {
     top: 50%;
     right: 0%;
     transform: translate(0%, -50%);
-    -ms-transform: translate(0%, -50%)
+    -ms-transform: translate(0%, -50%);
 }
-
-w3-animate-fading {}
 
 
 /* end of slider */
@@ -387,7 +385,7 @@ w3-animate-fading {}
     font-size: 18px;
     margin-bottom: 10px;
     padding: 3px 10px;
-    color: #011c38;
+    color: #005E38;
     /*color: white;*/
     background-color: #8e99a535;
     text-align: center;
@@ -407,9 +405,9 @@ w3-animate-fading {}
     text-transform: capitalize;
     text-align: center;
     font-size: 13px;
-    color: #011c38;
+    color: #005E38;
     margin: 10px 0px 10px 0px;
-    font-family: 'EB Garamond', serif;
+    font-family: "EB Garamond", serif;
     font-style: italic;
 }
 
@@ -446,7 +444,7 @@ w3-animate-fading {}
 }
 
 .box-1 a:hover {
-    color: #011c38;
+    color: #005E38;
 }
 
 .links ul {
@@ -467,7 +465,7 @@ w3-animate-fading {}
 
 .links ul::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color: #032244;
+    background-color: #005E38;
 }
 
 .readmore {
@@ -485,8 +483,8 @@ w3-animate-fading {}
 }
 
 footer {
-    padding: 20px 0px;
-    background-color: #011c38;
+    padding: 20px;
+    background-color: #005E38;
 }
 
 footer .head {
@@ -565,3 +563,6 @@ footer .contacts {
         background-color: #032244;
     }
 }
+
+
+/*# sourceMappingURL=style2.css.map */
