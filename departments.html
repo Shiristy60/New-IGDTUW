@@ -14,10 +14,92 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:500|Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
-
+    <link rel="stylesheet" href="stylesheet/index.css">
     <style>
-
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: white;
+            font-size: 14px;
+            /* #7ba566 */
+        }
+        /* a {
+            text-decoration: none;
+        }
+        
+        ul {
+            padding: 0px;
+            margin: 0px;
+            list-style-type: none;
+        } */
+        
+        .sideHeading {
+            font-weight: bolder;
+            font-size: 15px;
+            margin: 10px;
+            padding: 5px;
+        }
+        
+        .sidenav li {
+            margin: 10px;
+            padding: 5px;
+            font-size: 14px;
+        }
+        
+        .sidenav li a {
+            display: block;
+            color: black;
+        }
+        
+        .sidenav li a:hover {
+            color: #011c38;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        
+        .box-1 {
+            margin-left: 0;
+            margin-right: 0px;
+        }
+        /* .Heading {
+            font-size: 18px;
+            padding: 3px 10px;
+            color: #011c38;
+            background-color: #8e99a535;
+            text-align: center;
+            border: 1px solid #03224435;
+            border-radius: 5px;
+            margin: 20px;
+        }
+         */
+        
+        .headingPara {
+            padding: 10px;
+            margin: 5px;
+            color: black;
+        }
+        
+        table {
+            margin: auto;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid grey;
+            box-shadow: 10px #011c38;
+        }
+        
+        table tr td,
+        th {
+            /* width: 200px; */
+            padding: 10px;
+            border: 1px solid grey;
+        }
+        
+        table tr td ul {
+            padding-left: 40px;
+        }
+        
+        table tr td ul li {
+            list-style-type: square;
+        }
     </style>
 </head>
 
@@ -147,27 +229,31 @@
     <!-- Main body -->
     <div class="container">
         <div class="row">
-            <div class="col-sm-4">
-                <div>
-                    DEPARTMENTS
+            <div class="col-sm-3">
+                <div class="">
+                    <div class="sideHeading">
+                        DEPARTMENTS
+                    </div>
+                    <ul class="sidenav">
+                        <li><a href="">Applied Sciences & Humanities</a></li>
+                        <li><a href="">Computer Science & Engineering</a></li>
+                        <li><a href="">Electronics & Communication Engineering</a></li>
+                        <li><a href="">Information Technology</a></li>
+                        <li><a href="">Mechanical & Automation Engineering</a></li>
+                        <li><a href="">Architecture and Planning</a></li>
+                    </ul>
                 </div>
-                <ul>
-                    <li><a href="">Applied Sciences & Humanities</a></li>
-                    <li><a href="">Computer Science & Engineering</a></li>
-                    <li><a href="">Electronics & Communication Engineering</a></li>
-                    <li><a href="">Information Technology</a></li>
-                    <li><a href="">Mechanical & Automation Engineering</a></li>
-                    <li><a href="">Architecture and Planning</a></li>
-                </ul>
             </div>
             <div class="col-sm-8">
-                <div>
-                    DEPARTMENTS
-                </div>
-                <div>
-                    Teaching in the university is achieved through various specialized departments. Each department through HOD ensures that the mechanisms are in place to promote regular contact between academics, support staff graduate/post-graduate students and Research
-                    Scholars. Department facilitates the availability of resources and facilities to the students for the smooth conduction of the academics. Department builds the guidelines & policies for the effective and timely management of the academics
-                    in the institution.
+                <div class="box-1">
+                    <div class="title">
+                        DEPARTMENTS
+                    </div>
+                    <div class="headingPara">
+                        Teaching in the university is achieved through various specialized departments. Each department through HOD ensures that the mechanisms are in place to promote regular contact between academics, support staff graduate/post-graduate students and Research
+                        Scholars. Department facilitates the availability of resources and facilities to the students for the smooth conduction of the academics. Department builds the guidelines & policies for the effective and timely management of the
+                        academics in the institution.
+                    </div>
                 </div>
                 <table>
                     <tr>
