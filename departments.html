@@ -57,7 +57,7 @@
         }
         
         .box-1 {
-            margin-left: 0;
+            margin-left: 0px;
             margin-right: 0px;
         }
         /* .Heading {
@@ -79,26 +79,43 @@
         }
         
         table {
-            margin: auto;
+            /* margin: auto; */
             margin-bottom: 10px;
             padding: 10px;
+            box-sizing: border-box;
             border: 1px solid grey;
-            box-shadow: 10px #011c38;
+            /* box-shadow: 10px #011c38; */
         }
-        
-        table tr td,
-        th {
-            /* width: 200px; */
-            padding: 10px;
-            border: 1px solid grey;
-        }
-        
-        table tr td ul {
-            padding-left: 40px;
-        }
+        /* table tr td,
+        th { */
+        /* width: 200px; */
+        /* padding: 10px; */
+        /* } */
+        /* table tr td ul {
+            /* padding-left: 40px; */
+        /* } */
         
         table tr td ul li {
             list-style-type: square;
+        }
+        
+        @media (max-width: 767px) {
+            .sideNav {
+                color: black;
+                border: 1px solid #03224435;
+                border-radius: 5px;
+                margin: 20px 0px;
+                background-color: white;
+            }
+            .sideHeading {
+                font-size: 18px;
+                margin: 0px;
+                margin-bottom: 10px;
+                padding: 3px 10px;
+                color: #011c38;
+                background-color: #8e99a535;
+                text-align: center;
+            }
         }
     </style>
 </head>
@@ -230,7 +247,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-3">
-                <div class="">
+                <div class="sideNav">
                     <div class="sideHeading">
                         DEPARTMENTS
                     </div>
@@ -244,7 +261,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-sm-8">
+            <div class="col-sm-9">
                 <div class="box-1">
                     <div class="title">
                         DEPARTMENTS
@@ -255,102 +272,7 @@
                         academics in the institution.
                     </div>
                 </div>
-                <table>
-                    <tr>
-                        <th>Department</th>
-                        <th>Head Of Department</th>
-                        <th>Courses Offered</th>
-                    </tr>
-                    <tr>
-                        <td>Computer Science and Engineering</td>
-                        <td><a href="">Prof. Ela Kumar</a></td>
-                        <td>
-                            <ul>
-                                <li>B.Tech (CSE)</li>
-                                <li>M.Tech(Mobile & Pervasive Computing)</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Electronics and Communication Engineering</td>
-                        <td><a href="">Dr. Nidhi Goel</a></td>
-                        <td>
-                            <ul>
-                                <li>B.Tech (ECE)</li>
-                                <li>M.Tech(VLSI Design)</li>
-                                <li>M.Tech(ECE) - Weekend Programme</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Information Technology</td>
-                        <td>
-                            <a href="">Dr. Arun Sharma</a>
-                        </td>
-                        <td>
-                            <ul>
-                                <li>B.Tech(IT)</li>
-                                <li>Master of Computer Applications(MCA)</li>
-                                <li>M.Tech(Information Security Management)</li>
-                                <li>M.Tech(Information and Communication Technology) - Part Time</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Mechanical and Automation Engineering</td>
-                        <td>
-                            <a href="">Dr. Manoj Soni</a>
-                        </td>
-                        <td>
-                            <ul>
-                                <li>B.Tech(MAE)</li>
-                                <li>M.Tech(Robotics and Automation)</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Applied Sciences & Humanities</td>
-                        <td>
-                            <a href="">Dr. Shalini Arora</a>
-                        </td>
-                        <td>
-                            <ul>
-                                <li>B.Tech - 1st year all branches</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Architecture and Planning</td>
-                        <td>
-                            <a href="">Dr. Preeti Vajpeyi</a>
-                        </td>
-                        <td>
-                            <ul>
-                                <li>B.Architecture</li>
-                            </ul>
-                        </td>
-                    </tr>
-                </table>
-                <!-- <div class="row">
-                    <div class="col-sm-3">
-                        <div>
-                            Department
-                        </div>
-                        <ul>
-                            li
-                        </ul>
-                    </div>
-                    <div class="col-sm-3">
-                        <div>
-                            Head Of Department
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div>
-                            Courses Offered
-                        </div>
-                    </div>
-                </div> -->
+
             </div>
         </div>
     </div>
