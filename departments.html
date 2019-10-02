@@ -114,6 +114,8 @@
                 $("#stylesheet").attr("href", "stylesheet/style2.css");
             } else if (n == 3) {
                 $("#stylesheet").attr("href", "stylesheet/style3.css");
+            } else if (n == 4) {
+                $("#stylesheet").attr("href", "stylesheet/style4.css");
             }
         }
     </script>
@@ -121,9 +123,9 @@
         .setting_container {
             position: fixed;
             top: 40%;
-            right: -100px;
-            padding: 10px;
-            z-index: 1000;
+            right: -170px;
+            padding: 15px 5px 15px 5px;
+            z-index: 1000 !important;
             border-radius: 5px;
             cursor: pointer;
             background-color: black;
@@ -135,15 +137,12 @@
         }
         
         .setting_container span {
-            height: 50px;
+            height: 70px;
             color: white;
-            width: 50px;
+            font-size: 15px;
+            width: 70px;
+            padding: 15px;
             margin: 0px;
-            padding: 10px;
-        }
-        
-        #sbutton {
-            /* background-color: white; */
         }
         
         #style1 {
@@ -157,12 +156,17 @@
         #style3 {
             background-color: #104210;
         }
+        
+        #style4 {
+            background-color: #004B02;
+        }
     </style>
     <div class="setting_container">
         <span id="sbutton"><i class="fa fa-gear"></i></span>
         <span id="style1" onclick="changestyle(1)">1</span>
         <span id="style2" onclick="changestyle(2)">2</span>
         <span id="style3" onclick="changestyle(3)">3</span>
+        <span id="style4" onclick="changestyle(4)">4</span>
     </div>
     <!-- header -->
     <div class="upperheadernav">
